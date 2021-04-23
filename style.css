@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    flex-basis: 250px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.descrição {
+    display: flex;
+    flex-basis: 200px;
+    text-align: justify;
+}
