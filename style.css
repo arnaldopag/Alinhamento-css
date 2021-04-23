@@ -1,12 +1,14 @@
 body {
     margin: 0;
+    text-align: center;
 }
 .alinhamento {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1000px;
     margin: 0 auto;
     flex-basis: 250px;
+    flex-wrap: wrap;
 }
 img {
     width: 100px;
@@ -16,6 +18,7 @@ img {
 }
 .descrição {
     display: flex;
+    justify-content: space-around;
     flex-basis: 200px;
     text-align: justify;
 }
